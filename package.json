@@ -14,7 +14,5 @@
     "type": "git",
     "url": "github:cezikmertcan/buip"
   },
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  }
+  "dependencies": {}
 }
