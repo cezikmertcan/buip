@@ -1,4 +1,4 @@
-import buip from "../buip.js";
+import buip from "../index.js";
 import path from "path";
 import { fileURLToPath } from "url";
 
