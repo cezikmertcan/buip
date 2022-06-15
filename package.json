@@ -1,0 +1,20 @@
+{
+  "name": "buip",
+  "version": "1.0.0",
+  "description": "BUIP is designed for segment management.",
+  "main": "index.js",
+  "scripts": {},
+  "type": "module",
+  "author": "Mertcan Çezik",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:cezikmertcan/buip"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

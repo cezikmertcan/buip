@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "customData": {
+      "start": 0,
+      "end": 15,
+      "showChoiceTime": 10
+    },
+    "nexts": [2, 3],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 2,
+    "customData": {},
+    "nexts": [4, 5, 6],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 3,
+    "customData": {},
+    "nexts": [7, 8],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 4,
+    "customData": {},
+    "nexts": [9],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 5,
+    "customData": {},
+    "nexts": [9],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 6,
+    "customData": {},
+    "nexts": [9],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 7,
+    "customData": {},
+    "nexts": [10],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 8,
+    "customData": {},
+    "nexts": [10],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 9,
+    "customData": {},
+    "nexts": [],
+    "defaultNextIndex": 0
+  },
+  {
+    "id": 10,
+    "customData": {},
+    "nexts": [],
+    "defaultNextIndex": 0
+  }
+]
