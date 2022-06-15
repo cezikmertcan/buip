@@ -1,6 +1,6 @@
 {
   "name": "buip",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "BUIP is designed for segment management.",
   "main": "index.js",
   "scripts": {},

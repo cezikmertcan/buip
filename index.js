@@ -1,22 +1,22 @@
 const buip = {
   currentSegment: {},
   data: {},
-  init: ({ data }) => {
-    data.segments.forEach((element) => {
+  init: (config) => {
+    config.segments.forEach((element) => {
       element.nextSegments = () => _getNextsBySegment(element);
     });
-    buip.data = data;
-    const currentSegment = data.segments.find(
-      (x) => x.id === data.initialSegment
+    buip.data = config;
+    const currentSegment = config.segments.find(
+      (x) => x.id === config.initialSegment
     );
     if (!currentSegment)
       throw new Error(
-        `Can't find initial segment with id of ${data.initialSegment}`
+        `Can't find initial segment with id of ${config.initialSegment}`
       );
-    buip.initialSegment = data.initialSegment;
+    buip.initialSegment = config.initialSegment;
     buip.currentSegment = currentSegment;
     buip._init = buip.init;
-    buip.init = undefined;
+    delete buip.init;
   },
   nextSegments: () => {
     const ids = [...buip.currentSegment.nexts];

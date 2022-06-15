@@ -1,6 +1,4 @@
 import buip from "../index.js";
-import segments from "../example-segments.json" assert { type: "json" };
-buip.init({
-  data: segments,
-});
-//console.log(buip.currentSegment);
+import buipConfig from "../example-config.json" assert { type: "json" };
+buip.init(buipConfig);
+console.log(buip);
